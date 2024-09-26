@@ -1,0 +1,133 @@
+/*limpar as formataçoes */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(192, 191, 191, 0.562);
+
+}
+
+#navegaçao{
+
+    background: whitesmoke;
+    border-bottom: 1px solid grey;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+
+#area {
+
+    width: 720px;
+    margin: 0 auto;
+    
+}
+
+#area-princiapl {
+
+    width: 720px;
+    margin: 55px auto 10px auto;
+
+
+
+    
+}
+
+
+
+.verde {
+
+    color: rgb(96, 192, 32);
+}
+
+#menu {
+    float: right;
+    
+    padding: 10px 0;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+
+/*Formataçao do menu*/
+a:link{
+    color: gray;
+}
+
+/*Links nao visitados*/
+
+a:visited{
+    color: gray;
+}
+
+/*links visitados*/
+
+a:hover{
+    background: rgb(96, 192, 32);
+    color: whitesmoke;
+}
+/*formatar links over*/
+
+a:active{
+    color: rgb(20, 20, 20);
+}
+
+/*links active*/
+
+
+
+#logo {
+    float: left;
+}
+
+
+#postagem{
+
+    background: whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.data-postagem{
+
+font-size: 14px;
+border-bottom: 1px  solid rgb(92, 91, 91);
+display: block;
+padding-bottom: 10px;
+margin-bottom: 10px;
+
+}
+.img-postagem{
+
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.postado{
+
+    border-left: 5px solid rgba(192, 191, 191, 0.562);
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+    
+}
+
+h2{
+    color: rgb(96, 192, 32);
+}
